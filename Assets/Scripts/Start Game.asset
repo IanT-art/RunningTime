@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Start Game
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":82.98288,"y":69.53284},"zoom":0.8499999,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-116.0,"y":-92.0},"guid":"092260be-492a-40c1-917c-853427fa8465","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"9"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"Level
+      1","$type":"System.String"}},"position":{"x":141.0,"y":-75.0},"guid":"60ba1c2d-4782-499f-b32c-d6c84c32e7d2","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"sceneName","$type":"System.String"},"object":null},"position":{"x":-128.0,"y":35.0},"guid":"4fd6b30c-86f8-4a84-8255-7a059eb2ef47","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"cddeee14-84f9-4d33-bad0-65970b5b5739","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%sceneName","guid":"6af86832-4e99-4eb3-a677-0f4e5920810b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
